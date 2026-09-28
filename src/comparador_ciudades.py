@@ -197,6 +197,14 @@ class ComparadorCiudades:
         df = pd.DataFrame(self.sistemas).T
         df.index.name = 'Ciudad (Sistema)'
         
+        # Asegurar tipos de datos correctos
+        df['estaciones'] = pd.to_numeric(df['estaciones'])
+        df['poblacion_ciudad'] = pd.to_numeric(df['poblacion_ciudad'])
+        df['distancia_red_km'] = pd.to_numeric(df['distancia_red_km'])
+        df['año_inicio'] = pd.to_numeric(df['año_inicio'])
+        df['velocidad_promedio_kmh'] = pd.to_numeric(df['velocidad_promedio_kmh'])
+        df['conexiones'] = pd.to_numeric(df['conexiones'])
+        
         # Calcular métricas adicionales
         df['estaciones_por_millon_habitantes'] = (
             df['estaciones'] / (df['poblacion_ciudad'] / 1000000)
@@ -246,15 +254,17 @@ class ComparadorCiudades:
             
             # Hoja de análisis de Neiva
             neiva_data = df.loc[df.index.str.contains('Neiva')]
-            promedio_brt = df[df['Tipo Sistema'] == 'BRT'].mean(numeric_only=True)
             
-            comparacion_neiva = pd.DataFrame({
-                'Métrica': neiva_data.columns,
-                'Neiva': neiva_data.iloc[0].values,
-                'Promedio BRT Latinoamérica': ['Colombia', '-', 'BRT', '-', '-'] + 
-                                               promedio_brt.tolist()
-            })
-            comparacion_neiva.to_excel(writer, sheet_name='Análisis Neiva', index=False)
+            # Simplificar comparación
+            neiva_info = {
+                'Estaciones': [neiva_data['Estaciones'].iloc[0]],
+                'Distancia Red (km)': [neiva_data['Distancia Red (km)'].iloc[0]],
+                'Velocidad Promedio (km/h)': [neiva_data['Velocidad Promedio (km/h)'].iloc[0]],
+                'Población Ciudad': [neiva_data['Población Ciudad'].iloc[0]]
+            }
+            
+            df_neiva = pd.DataFrame(neiva_info, index=['Neiva (SETP)'])
+            df_neiva.to_excel(writer, sheet_name='Análisis Neiva')
         
         return filepath
     

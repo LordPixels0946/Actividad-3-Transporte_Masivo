@@ -218,7 +218,7 @@ class AnalizadorExcel:
     
     def _hoja_estadisticas(self, writer):
         """Estadísticas generales"""
-        conexiones_distancias = [d for o, d, dist, t in self.base.conexiones]
+        conexiones_distancias = [dist for o, d, dist, t in self.base.conexiones]
         conexiones_tiempos = [t for o, d, dist, t in self.base.conexiones]
         
         import numpy as np

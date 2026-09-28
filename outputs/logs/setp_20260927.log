@@ -1,0 +1,73 @@
+2026-09-27 21:01:12,254 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:01:12,255 - SETP_Neiva - INFO - Iniciando análisis completo del sistema SETP Neiva
+2026-09-27 21:01:12,255 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:01:12,256 - SETP_Neiva - INFO - Búsqueda: Terminal → Estadio | Exitosa: True | Tiempo: 0.18 ms
+2026-09-27 21:01:12,257 - SETP_Neiva - INFO - Búsqueda: San Mateo → Sevilla | Exitosa: True | Tiempo: 0.11 ms
+2026-09-27 21:01:12,258 - SETP_Neiva - INFO - Búsqueda: Centro → Calixto | Exitosa: True | Tiempo: 0.08 ms
+2026-09-27 21:01:12,261 - SETP_Neiva - INFO - Búsqueda: Terminal → Calle 7 | Exitosa: True | Tiempo: 0.06 ms
+2026-09-27 21:01:12,263 - SETP_Neiva - INFO - Búsqueda: Limonar → Calixto | Exitosa: True | Tiempo: 0.12 ms
+2026-09-27 21:01:12,265 - SETP_Neiva - INFO - Búsqueda: Gran Centro → Cándido | Exitosa: True | Tiempo: 0.07 ms
+2026-09-27 21:01:12,267 - SETP_Neiva - INFO - Búsqueda: Quirinal → San Mateo | Exitosa: True | Tiempo: 0.27 ms
+2026-09-27 21:01:12,268 - SETP_Neiva - INFO - Búsqueda: Alcaldía → Limonar | Exitosa: True | Tiempo: 0.08 ms
+2026-09-27 21:01:13,814 - SETP_Neiva - INFO - Visualización 'red_completa' generada | Archivo: outputs\red_completa.png | Tiempo: 1539.47 ms
+2026-09-27 21:01:15,885 - SETP_Neiva - INFO - Visualización 'analisis_centralidad' generada | Archivo: outputs\analisis_centralidad.png | Tiempo: 2064.69 ms
+2026-09-27 21:01:17,790 - SETP_Neiva - INFO - Visualización 'mapa_calor' generada | Archivo: outputs\mapa_calor_conectividad.png | Tiempo: 1904.05 ms
+2026-09-27 21:01:18,959 - SETP_Neiva - INFO - Visualización 'comparativa_rutas' generada | Archivo: outputs\comparativa_rutas.png | Tiempo: 1167.87 ms
+2026-09-27 21:01:19,915 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_terminal_estadio.png | Tiempo: 954.96 ms
+2026-09-27 21:01:20,934 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_sanmateo_sevilla.png | Tiempo: 1017.57 ms
+2026-09-27 21:01:40,700 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:01:40,701 - SETP_Neiva - INFO - Iniciando análisis completo del sistema SETP Neiva
+2026-09-27 21:01:40,701 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:01:40,703 - SETP_Neiva - INFO - Búsqueda: Terminal → Estadio | Exitosa: True | Tiempo: 0.21 ms
+2026-09-27 21:01:40,705 - SETP_Neiva - INFO - Búsqueda: San Mateo → Sevilla | Exitosa: True | Tiempo: 0.14 ms
+2026-09-27 21:01:40,706 - SETP_Neiva - INFO - Búsqueda: Centro → Calixto | Exitosa: True | Tiempo: 0.07 ms
+2026-09-27 21:01:40,708 - SETP_Neiva - INFO - Búsqueda: Terminal → Calle 7 | Exitosa: True | Tiempo: 0.07 ms
+2026-09-27 21:01:40,710 - SETP_Neiva - INFO - Búsqueda: Limonar → Calixto | Exitosa: True | Tiempo: 0.23 ms
+2026-09-27 21:01:40,713 - SETP_Neiva - INFO - Búsqueda: Gran Centro → Cándido | Exitosa: True | Tiempo: 0.1 ms
+2026-09-27 21:01:40,717 - SETP_Neiva - INFO - Búsqueda: Quirinal → San Mateo | Exitosa: True | Tiempo: 0.43 ms
+2026-09-27 21:01:40,719 - SETP_Neiva - INFO - Búsqueda: Alcaldía → Limonar | Exitosa: True | Tiempo: 0.37 ms
+2026-09-27 21:01:41,878 - SETP_Neiva - INFO - Visualización 'red_completa' generada | Archivo: outputs\red_completa.png | Tiempo: 1151.44 ms
+2026-09-27 21:01:43,941 - SETP_Neiva - INFO - Visualización 'analisis_centralidad' generada | Archivo: outputs\analisis_centralidad.png | Tiempo: 2056.3 ms
+2026-09-27 21:01:45,840 - SETP_Neiva - INFO - Visualización 'mapa_calor' generada | Archivo: outputs\mapa_calor_conectividad.png | Tiempo: 1897.12 ms
+2026-09-27 21:01:46,975 - SETP_Neiva - INFO - Visualización 'comparativa_rutas' generada | Archivo: outputs\comparativa_rutas.png | Tiempo: 1133.0 ms
+2026-09-27 21:01:47,927 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_terminal_estadio.png | Tiempo: 949.88 ms
+2026-09-27 21:01:48,932 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_sanmateo_sevilla.png | Tiempo: 1002.43 ms
+2026-09-27 21:01:49,246 - SETP_Neiva - INFO - Reporte Excel generado | Archivo: outputs\reporte_setp_20260927_210148.xlsx | Hojas: 7 | Tiempo: 297.94 ms
+2026-09-27 21:02:21,968 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:02:21,968 - SETP_Neiva - INFO - Iniciando análisis completo del sistema SETP Neiva
+2026-09-27 21:02:21,968 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:02:21,970 - SETP_Neiva - INFO - Búsqueda: Terminal → Estadio | Exitosa: True | Tiempo: 0.21 ms
+2026-09-27 21:02:21,972 - SETP_Neiva - INFO - Búsqueda: San Mateo → Sevilla | Exitosa: True | Tiempo: 0.11 ms
+2026-09-27 21:02:21,974 - SETP_Neiva - INFO - Búsqueda: Centro → Calixto | Exitosa: True | Tiempo: 0.08 ms
+2026-09-27 21:02:21,977 - SETP_Neiva - INFO - Búsqueda: Terminal → Calle 7 | Exitosa: True | Tiempo: 0.06 ms
+2026-09-27 21:02:21,979 - SETP_Neiva - INFO - Búsqueda: Limonar → Calixto | Exitosa: True | Tiempo: 0.12 ms
+2026-09-27 21:02:21,984 - SETP_Neiva - INFO - Búsqueda: Gran Centro → Cándido | Exitosa: True | Tiempo: 0.07 ms
+2026-09-27 21:02:21,988 - SETP_Neiva - INFO - Búsqueda: Quirinal → San Mateo | Exitosa: True | Tiempo: 0.45 ms
+2026-09-27 21:02:21,989 - SETP_Neiva - INFO - Búsqueda: Alcaldía → Limonar | Exitosa: True | Tiempo: 0.09 ms
+2026-09-27 21:02:23,174 - SETP_Neiva - INFO - Visualización 'red_completa' generada | Archivo: outputs\red_completa.png | Tiempo: 1180.46 ms
+2026-09-27 21:02:25,194 - SETP_Neiva - INFO - Visualización 'analisis_centralidad' generada | Archivo: outputs\analisis_centralidad.png | Tiempo: 2015.49 ms
+2026-09-27 21:02:27,097 - SETP_Neiva - INFO - Visualización 'mapa_calor' generada | Archivo: outputs\mapa_calor_conectividad.png | Tiempo: 1900.77 ms
+2026-09-27 21:02:28,246 - SETP_Neiva - INFO - Visualización 'comparativa_rutas' generada | Archivo: outputs\comparativa_rutas.png | Tiempo: 1146.8 ms
+2026-09-27 21:02:29,213 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_terminal_estadio.png | Tiempo: 965.5 ms
+2026-09-27 21:02:30,273 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_sanmateo_sevilla.png | Tiempo: 1058.62 ms
+2026-09-27 21:02:30,508 - SETP_Neiva - INFO - Reporte Excel generado | Archivo: outputs\reporte_setp_20260927_210230.xlsx | Hojas: 7 | Tiempo: 221.41 ms
+2026-09-27 21:02:46,501 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:02:46,501 - SETP_Neiva - INFO - Iniciando análisis completo del sistema SETP Neiva
+2026-09-27 21:02:46,502 - SETP_Neiva - INFO - ============================================================
+2026-09-27 21:02:46,504 - SETP_Neiva - INFO - Búsqueda: Terminal → Estadio | Exitosa: True | Tiempo: 0.17 ms
+2026-09-27 21:02:46,505 - SETP_Neiva - INFO - Búsqueda: San Mateo → Sevilla | Exitosa: True | Tiempo: 0.11 ms
+2026-09-27 21:02:46,507 - SETP_Neiva - INFO - Búsqueda: Centro → Calixto | Exitosa: True | Tiempo: 0.09 ms
+2026-09-27 21:02:46,509 - SETP_Neiva - INFO - Búsqueda: Terminal → Calle 7 | Exitosa: True | Tiempo: 0.05 ms
+2026-09-27 21:02:46,511 - SETP_Neiva - INFO - Búsqueda: Limonar → Calixto | Exitosa: True | Tiempo: 0.12 ms
+2026-09-27 21:02:46,513 - SETP_Neiva - INFO - Búsqueda: Gran Centro → Cándido | Exitosa: True | Tiempo: 0.06 ms
+2026-09-27 21:02:46,516 - SETP_Neiva - INFO - Búsqueda: Quirinal → San Mateo | Exitosa: True | Tiempo: 0.42 ms
+2026-09-27 21:02:46,518 - SETP_Neiva - INFO - Búsqueda: Alcaldía → Limonar | Exitosa: True | Tiempo: 0.1 ms
+2026-09-27 21:02:47,664 - SETP_Neiva - INFO - Visualización 'red_completa' generada | Archivo: outputs\red_completa.png | Tiempo: 1139.55 ms
+2026-09-27 21:02:49,745 - SETP_Neiva - INFO - Visualización 'analisis_centralidad' generada | Archivo: outputs\analisis_centralidad.png | Tiempo: 2075.7 ms
+2026-09-27 21:02:51,969 - SETP_Neiva - INFO - Visualización 'mapa_calor' generada | Archivo: outputs\mapa_calor_conectividad.png | Tiempo: 2222.23 ms
+2026-09-27 21:02:53,399 - SETP_Neiva - INFO - Visualización 'comparativa_rutas' generada | Archivo: outputs\comparativa_rutas.png | Tiempo: 1427.16 ms
+2026-09-27 21:02:54,513 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_terminal_estadio.png | Tiempo: 1108.33 ms
+2026-09-27 21:02:55,656 - SETP_Neiva - INFO - Visualización 'ruta_especifica' generada | Archivo: outputs\ruta_sanmateo_sevilla.png | Tiempo: 1141.52 ms
+2026-09-27 21:02:55,888 - SETP_Neiva - INFO - Reporte Excel generado | Archivo: outputs\reporte_setp_20260927_210255.xlsx | Hojas: 7 | Tiempo: 228.75 ms
+2026-09-27 21:02:58,176 - SETP_Neiva - INFO - Análisis completo finalizado en 11.68 segundos
+2026-09-27 21:02:58,176 - SETP_Neiva - INFO - ============================================================

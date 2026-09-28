@@ -1,0 +1,40 @@
+======================================================================
+  INFORME DE POSICIONAMIENTO - SETP NEIVA
+  Comparación con Sistemas BRT de Latinoamérica
+======================================================================
+
+Fecha de análisis: 2026-09-27 21:02:58
+
+1. CARACTERÍSTICAS DEL SETP NEIVA:
+----------------------------------------------------------------------
+   • Estaciones: 12
+   • Distancia de red: 35.2 km
+   • Velocidad promedio: 25 km/h
+   • Población atendida: 350,000 habitantes
+   • Años de operación: 13
+
+2. COMPARACIÓN CON PROMEDIO BRT LATINOAMÉRICA:
+----------------------------------------------------------------------
+   Estaciones:
+      Neiva: 12 | Promedio: 132.1 | Diferencia: -90.9%
+
+   Distancia de Red:
+      Neiva: 35.2 km | Promedio: 78.5 km | Diferencia: -55.2%
+
+   Velocidad Promedio:
+      Neiva: 25 km/h | Promedio: 26.0 km/h | Diferencia: -3.8%
+
+3. POSICIÓN EN RANKINGS:
+----------------------------------------------------------------------
+   • Estaciones: Posición 8 de 8
+   • Extensión de red: Posición 7 de 8
+   • Velocidad: Posición 6 de 8
+
+4. CONCLUSIONES:
+----------------------------------------------------------------------
+   SETP Neiva es un sistema de transporte BRT en fase de consolidación,
+   apropiado para el tamaño de la ciudad (350,000 habitantes).
+   Comparado con sistemas BRT de ciudades más grandes, cuenta con una red
+   más compacta pero funcional para las necesidades locales.
+
+======================================================================

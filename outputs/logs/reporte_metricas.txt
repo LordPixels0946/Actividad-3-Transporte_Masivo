@@ -1,0 +1,33 @@
+============================================================
+  REPORTE DE MÉTRICAS - SISTEMA SETP NEIVA
+============================================================
+
+Fecha de generación: 2026-09-27 21:02:58
+
+ESTADÍSTICAS GENERALES:
+------------------------------------------------------------
+Total de operaciones: 59
+Total de búsquedas: 32
+Búsquedas exitosas: 32
+Total de visualizaciones: 24
+Total de reportes Excel: 3
+
+RENDIMIENTO:
+------------------------------------------------------------
+Tiempo promedio de búsqueda: 0.15 ms
+Tiempo promedio de visualización: 1425.87 ms
+
+ÚLTIMAS 10 OPERACIONES:
+------------------------------------------------------------
+2026-09-27T21:02:46.512018 - busqueda_ruta
+2026-09-27T21:02:46.514218 - busqueda_ruta
+2026-09-27T21:02:46.517117 - busqueda_ruta
+2026-09-27T21:02:47.662205 - visualizacion
+2026-09-27T21:02:49.743562 - visualizacion
+2026-09-27T21:02:51.967633 - visualizacion
+2026-09-27T21:02:53.398333 - visualizacion
+2026-09-27T21:02:54.511347 - visualizacion
+2026-09-27T21:02:55.655112 - visualizacion
+2026-09-27T21:02:55.886199 - reporte_excel
+
+============================================================

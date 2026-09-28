@@ -1,0 +1,511 @@
+[
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.255913",
+    "origen": "Terminal",
+    "destino": "Estadio",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.18,
+    "distancia": 5.9,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.256996",
+    "origen": "San Mateo",
+    "destino": "Sevilla",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.11,
+    "distancia": 5.6,
+    "paradas": 4
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.257990",
+    "origen": "Centro",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.08,
+    "distancia": 2.1,
+    "paradas": 2
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.259638",
+    "origen": "Terminal",
+    "destino": "Calle 7",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.06,
+    "distancia": 1.2,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.262124",
+    "origen": "Limonar",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.12,
+    "distancia": 5.500000000000001,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.264137",
+    "origen": "Gran Centro",
+    "destino": "Cándido",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.07,
+    "distancia": 1.0,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.265902",
+    "origen": "Quirinal",
+    "destino": "San Mateo",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.27,
+    "distancia": 6.0,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:12.267430",
+    "origen": "Alcaldía",
+    "destino": "Limonar",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.08,
+    "distancia": 2.6,
+    "paradas": 2
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:13.811222",
+    "tipo_grafico": "red_completa",
+    "archivo": "outputs\\red_completa.png",
+    "tiempo_ejecucion_ms": 1539.47
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:15.884214",
+    "tipo_grafico": "analisis_centralidad",
+    "archivo": "outputs\\analisis_centralidad.png",
+    "tiempo_ejecucion_ms": 2064.69
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:17.789404",
+    "tipo_grafico": "mapa_calor",
+    "archivo": "outputs\\mapa_calor_conectividad.png",
+    "tiempo_ejecucion_ms": 1904.05
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:18.958418",
+    "tipo_grafico": "comparativa_rutas",
+    "archivo": "outputs\\comparativa_rutas.png",
+    "tiempo_ejecucion_ms": 1167.87
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:19.914499",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_terminal_estadio.png",
+    "tiempo_ejecucion_ms": 954.96
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:20.933235",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_sanmateo_sevilla.png",
+    "tiempo_ejecucion_ms": 1017.57
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.702809",
+    "origen": "Terminal",
+    "destino": "Estadio",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.21,
+    "distancia": 5.9,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.704278",
+    "origen": "San Mateo",
+    "destino": "Sevilla",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.14,
+    "distancia": 5.6,
+    "paradas": 4
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.705456",
+    "origen": "Centro",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.07,
+    "distancia": 2.1,
+    "paradas": 2
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.707808",
+    "origen": "Terminal",
+    "destino": "Calle 7",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.07,
+    "distancia": 1.2,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.709285",
+    "origen": "Limonar",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.23,
+    "distancia": 5.500000000000001,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.711726",
+    "origen": "Gran Centro",
+    "destino": "Cándido",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.1,
+    "distancia": 1.0,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.715401",
+    "origen": "Quirinal",
+    "destino": "San Mateo",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.43,
+    "distancia": 6.0,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:01:40.718860",
+    "origen": "Alcaldía",
+    "destino": "Limonar",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.37,
+    "distancia": 2.6,
+    "paradas": 2
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:41.876561",
+    "tipo_grafico": "red_completa",
+    "archivo": "outputs\\red_completa.png",
+    "tiempo_ejecucion_ms": 1151.44
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:43.940077",
+    "tipo_grafico": "analisis_centralidad",
+    "archivo": "outputs\\analisis_centralidad.png",
+    "tiempo_ejecucion_ms": 2056.3
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:45.839194",
+    "tipo_grafico": "mapa_calor",
+    "archivo": "outputs\\mapa_calor_conectividad.png",
+    "tiempo_ejecucion_ms": 1897.12
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:46.974823",
+    "tipo_grafico": "comparativa_rutas",
+    "archivo": "outputs\\comparativa_rutas.png",
+    "tiempo_ejecucion_ms": 1133.0
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:47.926036",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_terminal_estadio.png",
+    "tiempo_ejecucion_ms": 949.88
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:01:48.929882",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_sanmateo_sevilla.png",
+    "tiempo_ejecucion_ms": 1002.43
+  },
+  {
+    "tipo": "reporte_excel",
+    "timestamp": "2026-09-27T21:01:49.245852",
+    "archivo": "outputs\\reporte_setp_20260927_210148.xlsx",
+    "num_hojas": 7,
+    "tiempo_ejecucion_ms": 297.94
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.969257",
+    "origen": "Terminal",
+    "destino": "Estadio",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.21,
+    "distancia": 5.9,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.971739",
+    "origen": "San Mateo",
+    "destino": "Sevilla",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.11,
+    "distancia": 5.6,
+    "paradas": 4
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.973284",
+    "origen": "Centro",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.08,
+    "distancia": 2.1,
+    "paradas": 2
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.975780",
+    "origen": "Terminal",
+    "destino": "Calle 7",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.06,
+    "distancia": 1.2,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.978041",
+    "origen": "Limonar",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.12,
+    "distancia": 5.500000000000001,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.982901",
+    "origen": "Gran Centro",
+    "destino": "Cándido",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.07,
+    "distancia": 1.0,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.986776",
+    "origen": "Quirinal",
+    "destino": "San Mateo",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.45,
+    "distancia": 6.0,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:21.988417",
+    "origen": "Alcaldía",
+    "destino": "Limonar",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.09,
+    "distancia": 2.6,
+    "paradas": 2
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:23.173237",
+    "tipo_grafico": "red_completa",
+    "archivo": "outputs\\red_completa.png",
+    "tiempo_ejecucion_ms": 1180.46
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:25.192959",
+    "tipo_grafico": "analisis_centralidad",
+    "archivo": "outputs\\analisis_centralidad.png",
+    "tiempo_ejecucion_ms": 2015.49
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:27.095616",
+    "tipo_grafico": "mapa_calor",
+    "archivo": "outputs\\mapa_calor_conectividad.png",
+    "tiempo_ejecucion_ms": 1900.77
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:28.244969",
+    "tipo_grafico": "comparativa_rutas",
+    "archivo": "outputs\\comparativa_rutas.png",
+    "tiempo_ejecucion_ms": 1146.8
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:29.212228",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_terminal_estadio.png",
+    "tiempo_ejecucion_ms": 965.5
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:30.272551",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_sanmateo_sevilla.png",
+    "tiempo_ejecucion_ms": 1058.62
+  },
+  {
+    "tipo": "reporte_excel",
+    "timestamp": "2026-09-27T21:02:30.507584",
+    "archivo": "outputs\\reporte_setp_20260927_210230.xlsx",
+    "num_hojas": 7,
+    "tiempo_ejecucion_ms": 221.41
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.502681",
+    "origen": "Terminal",
+    "destino": "Estadio",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.17,
+    "distancia": 5.9,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.504372",
+    "origen": "San Mateo",
+    "destino": "Sevilla",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.11,
+    "distancia": 5.6,
+    "paradas": 4
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.506023",
+    "origen": "Centro",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.09,
+    "distancia": 2.1,
+    "paradas": 2
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.507560",
+    "origen": "Terminal",
+    "destino": "Calle 7",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.05,
+    "distancia": 1.2,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.509973",
+    "origen": "Limonar",
+    "destino": "Calixto",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.12,
+    "distancia": 5.500000000000001,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.512018",
+    "origen": "Gran Centro",
+    "destino": "Cándido",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.06,
+    "distancia": 1.0,
+    "paradas": 1
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.514218",
+    "origen": "Quirinal",
+    "destino": "San Mateo",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.42,
+    "distancia": 6.0,
+    "paradas": 5
+  },
+  {
+    "tipo": "busqueda_ruta",
+    "timestamp": "2026-09-27T21:02:46.517117",
+    "origen": "Alcaldía",
+    "destino": "Limonar",
+    "exitosa": true,
+    "tiempo_ejecucion_ms": 0.1,
+    "distancia": 2.6,
+    "paradas": 2
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:47.662205",
+    "tipo_grafico": "red_completa",
+    "archivo": "outputs\\red_completa.png",
+    "tiempo_ejecucion_ms": 1139.55
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:49.743562",
+    "tipo_grafico": "analisis_centralidad",
+    "archivo": "outputs\\analisis_centralidad.png",
+    "tiempo_ejecucion_ms": 2075.7
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:51.967633",
+    "tipo_grafico": "mapa_calor",
+    "archivo": "outputs\\mapa_calor_conectividad.png",
+    "tiempo_ejecucion_ms": 2222.23
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:53.398333",
+    "tipo_grafico": "comparativa_rutas",
+    "archivo": "outputs\\comparativa_rutas.png",
+    "tiempo_ejecucion_ms": 1427.16
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:54.511347",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_terminal_estadio.png",
+    "tiempo_ejecucion_ms": 1108.33
+  },
+  {
+    "tipo": "visualizacion",
+    "timestamp": "2026-09-27T21:02:55.655112",
+    "tipo_grafico": "ruta_especifica",
+    "archivo": "outputs\\ruta_sanmateo_sevilla.png",
+    "tiempo_ejecucion_ms": 1141.52
+  },
+  {
+    "tipo": "reporte_excel",
+    "timestamp": "2026-09-27T21:02:55.886199",
+    "archivo": "outputs\\reporte_setp_20260927_210255.xlsx",
+    "num_hojas": 7,
+    "tiempo_ejecucion_ms": 228.75
+  }
+]
