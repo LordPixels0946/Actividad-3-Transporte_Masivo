@@ -4,8 +4,8 @@ INTERFAZ DE USUARIO POR CONSOLA
 Permite al usuario interactuar con el sistema de búsqueda de rutas
 """
 
-from base_conocimiento import BaseConocimiento
-from algoritmo_a_estrella import AlgoritmoAEstrella
+from src.base_conocimiento import BaseConocimiento
+from src.algoritmo_a_estrella import AlgoritmoAEstrella
 
 
 class InterfazUsuario:

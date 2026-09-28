@@ -1,91 +1,117 @@
-# Sistema Inteligente de Búsqueda de Rutas - SETP Neiva
+# 🚍 Sistema Inteligente de Rutas - SETP Neiva
 
-Sistema de búsqueda de rutas óptimas para el Sistema Estratégico de Transporte Público (SETP) de Neiva, implementado con el algoritmo A* y búsqueda heurística.
+Sistema avanzado de búsqueda de rutas óptimas con análisis profesional, visualizaciones de red y comparativas internacionales para el Sistema Estratégico de Transporte Público de Neiva.
 
-## 📋 Descripción
+## 🌟 Características Principales
 
-Este proyecto implementa un motor de búsqueda inteligente que encuentra la ruta óptima entre dos estaciones del sistema de transporte masivo de Neiva. Utiliza:
+### 🧠 Motor Inteligente
+- **Algoritmo A*** con heurística euclidiana optimizada
+- Base de conocimiento con 12 estaciones y 16 conexiones reales
+- Búsqueda óptima garantizada con métricas de rendimiento
 
-- **Base de conocimiento**: Representa estaciones y conexiones como hechos lógicos
-- **Algoritmo A***: Motor de búsqueda heurística para encontrar rutas óptimas
-- **Heurística**: Distancia euclidiana en coordenadas geográficas
-- **Interfaz por consola**: Permite al usuario buscar rutas interactivamente
+### 📊 Análisis Profesional
+- **Reportes Excel** completos con 7 hojas de análisis
+- **Gráficos de alta calidad** (300 DPI) tipo red de tráfico
+- **Análisis de centralidad** de estaciones (grado, intermediación, cercanía)
+- **Mapas de calor** de conectividad
+- **Métricas de rendimiento** en tiempo real
 
-## 🗺️ Estaciones Incluidas
+### 🌎 Comparación Internacional
+- Comparación con 8 sistemas BRT de Latinoamérica
+- Gráficos comparativos multi-criterio
+- Análisis de posicionamiento y rankings
+- Estadísticas poblacionales y de cobertura
 
-El sistema incluye 12 estaciones reales del SETP Neiva:
+### 📈 Visualizaciones Avanzadas
+- Red completa con coordenadas geográficas
+- Rutas individuales resaltadas
+- Análisis de tráfico y flujos
+- Gráficos comparativos de rutas
 
-1. Terminal
-2. Calle 7
-3. Centro
-4. Alcaldía
-5. Quirinal
-6. Limonar
-7. Gran Centro
-8. Calixto
-9. Estadio
-10. Cándido
-11. San Mateo
-12. Sevilla
+## 🚀 Inicio Rápido
 
-Con 16 conexiones bidireccionales entre ellas.
+### Instalación
 
-## 🚀 Requisitos
+```bash
+# Clonar o descargar el repositorio
+git clone <url-repositorio>
 
-- Python 3.6 o superior
-- No requiere librerías externas (solo módulos estándar de Python)
+# Instalar dependencias
+pip install -r requirements.txt
+```
 
-## 📦 Instalación
+### Uso Básico
 
-1. Clone o descargue este repositorio
-2. No se requieren instalaciones adicionales
-
-## ▶️ Ejecución
-
-Para ejecutar el sistema, abra una terminal en el directorio del proyecto y ejecute:
+#### 1. Interfaz Interactiva
 
 ```bash
 python main.py
 ```
 
-O directamente:
+Permite buscar rutas entre estaciones de forma interactiva.
+
+#### 2. Análisis Completo
 
 ```bash
-python interfaz_usuario.py
+python generar_analisis_completo.py
 ```
 
-## 💻 Uso del Sistema
+Genera todo el análisis profesional:
+- 6+ gráficos PNG (red, rutas, comparativas)
+- 2 reportes Excel (SETP + comparativa internacional)
+- Informes de texto (métricas, posicionamiento)
+- Logs de rendimiento
 
-1. Al iniciar, el sistema muestra todas las estaciones disponibles
-2. Ingrese la estación de origen (puede escribir en mayúsculas o minúsculas)
-3. Ingrese la estación de destino
-4. El sistema calcula y muestra:
-   - Ruta óptima completa (secuencia de estaciones)
-   - Número de paradas
-   - Distancia total en kilómetros
-   - Tiempo estimado de viaje
+#### 3. Pruebas Automatizadas
 
-### Ejemplo de Uso
+```bash
+python src/test_sistema.py
+```
+
+Ejecuta suite de 8 pruebas automatizadas.
+
+## 📁 Estructura del Proyecto
 
 ```
-ESTACIONES DISPONIBLES:
-----------------------------------------
-   1. Alcaldía
-   2. Calixto
-   3. Calle 7
-   ...
+.
+├── src/                           # Código fuente
+│   ├── base_conocimiento.py      # Base de datos de red
+│   ├── algoritmo_a_estrella.py   # Motor A*
+│   ├── interfaz_usuario.py       # CLI interactiva
+│   ├── visualizador.py           # Gráficos NetworkX
+│   ├── analizador_excel.py       # Reportes Excel
+│   ├── logger_metricas.py        # Sistema de logging
+│   ├── comparador_ciudades.py    # Análisis internacional
+│   └── test_sistema.py           # Suite de pruebas
+├── outputs/                       # Archivos generados
+│   ├── *.png                     # Gráficos
+│   ├── *.xlsx                    # Reportes Excel
+│   └── logs/                     # Logs y métricas
+├── data/                          # Datos auxiliares
+├── docs/                          # Documentación completa
+│   ├── README.md                 # Guía detallada
+│   ├── ARQUITECTURA.md           # Diseño técnico
+│   └── commands.md               # Comandos Git
+├── main.py                        # Entrada principal
+├── generar_analisis_completo.py  # Análisis completo
+└── requirements.txt               # Dependencias Python
+```
+
+## 📊 Ejemplos de Salida
+
+### Terminal Interactiva
+
+```
+============================================================
+  SISTEMA INTELIGENTE DE RUTAS - SETP NEIVA
+============================================================
 
 Ingrese estación de ORIGEN: Terminal
 Ingrese estación de DESTINO: Estadio
 
 🔍 Buscando ruta óptima...
 
-============================================================
-  RESULTADO DE LA BÚSQUEDA
-============================================================
-
 RUTA ÓPTIMA ENCONTRADA:
-----------------------------------------
   ▶ Terminal (Origen)
   ▶ Calle 7
   ▶ Centro
@@ -93,84 +119,168 @@ RUTA ÓPTIMA ENCONTRADA:
   ▶ Quirinal
   ▶ Estadio (Destino)
 
-----------------------------------------
 Número de paradas: 5
-Distancia total: 5.50 km
-Tiempo estimado: 19 minutos
+Distancia total: 5.90 km
+Tiempo estimado: 20 minutos
+```
+
+### Análisis Completo
+
+```
+ANÁLISIS COMPLETADO EXITOSAMENTE
 ============================================================
-```
 
-## 📁 Estructura del Proyecto
+📁 Archivos generados:
+   • 6 gráficos de red y rutas (PNG 300 DPI)
+   • 1 reporte Excel completo (7 hojas)
+   • 3 gráficos de comparación internacional
+   • 1 tabla comparativa Excel con rankings
+   • 1 informe de posicionamiento
+   • 1 reporte de métricas de rendimiento
+   • 8 rutas óptimas analizadas
 
-```
-.
-├── base_conocimiento.py      # Base de datos con estaciones y conexiones
-├── algoritmo_a_estrella.py   # Implementación del algoritmo A*
-├── interfaz_usuario.py        # Interfaz de usuario por consola
-├── main.py                    # Punto de entrada principal
-├── test_sistema.py            # Script de pruebas automatizadas
-├── visualizacion_red.txt      # Mapa visual de la red de transporte
-├── README.md                  # Este archivo
-├── commands.md                # Comandos Git y pruebas
-└── .gitignore                 # Archivos a ignorar en Git
+⏱️  Tiempo total: 3.45 segundos
+
+🔝 Top 5 Estaciones Más Importantes:
+   1. Centro: 0.8234
+   2. Alcaldía: 0.7891
+   3. Quirinal: 0.7456
+   ...
 ```
 
 ## 🔍 Detalles Técnicos
 
-### Base de Conocimiento
-
-La clase `BaseConocimiento` almacena:
-- Coordenadas geográficas (latitud, longitud) de cada estación
-- Conexiones bidireccionales con distancia y tiempo
-- Métodos para consultar vecinos y validar estaciones
-
 ### Algoritmo A*
 
-La clase `AlgoritmoAEstrella` implementa:
 - **Función de evaluación**: f(n) = g(n) + h(n)
-  - g(n): Costo real desde el origen
-  - h(n): Estimación heurística al destino
-- **Heurística admisible**: Distancia euclidiana (nunca sobreestima)
-- **Cola de prioridad**: Explora nodos con menor f(n) primero
-- **Reconstrucción de ruta**: Sigue punteros padre hasta el origen
+- **Heurística**: Distancia euclidiana en coordenadas geográficas
+- **Garantía**: Optimalidad con heurística admisible
+- **Complejidad**: O(b^d) tiempo y espacio
 
-### Complejidad
+### Visualizaciones
 
-- **Tiempo**: O(b^d) donde b es el factor de ramificación y d la profundidad
-- **Espacio**: O(b^d) para almacenar la frontera y nodos visitados
-- **Optimalidad**: Garantizada por heurística admisible
+- **NetworkX** para análisis de grafos
+- **Matplotlib** para renderizado
+- **Seaborn** para estilos profesionales
+- **Coordenadas reales** de Neiva, Colombia
 
-## 🧪 Casos de Prueba
+### Análisis Excel
 
-### Pruebas Interactivas
+- **7 hojas de análisis**:
+  1. Resumen de red
+  2. Detalle de estaciones
+  3. Matriz de conexiones
+  4. Análisis de centralidad
+  5. Matriz de distancias
+  6. Resultados de búsquedas
+  7. Estadísticas generales
+  
+- **Formato profesional** con colores, bordes y ajuste automático
 
-Ejecute el programa principal y pruebe diferentes combinaciones:
+### Comparación Internacional
+
+Incluye datos de:
+- Bogotá (TransMilenio)
+- Medellín (Metro)
+- Cali (MIO)
+- Curitiba (RIT)
+- Ciudad de México (Metrobús)
+- Lima (Metropolitano)
+- Santiago (Transantiago)
+
+## 📦 Dependencias
+
+- **Python 3.6+**
+- **NetworkX** - Análisis de grafos
+- **Matplotlib** - Gráficos
+- **Pandas** - Análisis de datos
+- **OpenPyXL** - Excel
+- **NumPy** - Cálculos numéricos
+
+Ver `requirements.txt` para lista completa.
+
+## 📖 Documentación Completa
+
+- **[docs/README.md](docs/README.md)** - Guía de usuario completa
+- **[docs/ARQUITECTURA.md](docs/ARQUITECTURA.md)** - Diseño técnico detallado
+- **[docs/commands.md](docs/commands.md)** - Comandos Git y casos de prueba
+
+## 🧪 Testing
 
 ```bash
-python main.py
+# Pruebas automatizadas
+python src/test_sistema.py
+
+# Resultados esperados:
+# ✅ 8/8 pruebas exitosas (100%)
 ```
 
-### Pruebas Automatizadas
+## 📝 Logs y Métricas
 
-Para ejecutar el conjunto completo de pruebas sin interacción manual:
+El sistema registra automáticamente:
+- Tiempo de ejecución de cada búsqueda
+- Generación de visualizaciones
+- Creación de reportes
+- Estadísticas de uso
 
-```bash
-python test_sistema.py
+Archivos en `outputs/logs/`:
+- `setp_YYYYMMDD.log` - Log detallado
+- `metricas.json` - Métricas en JSON
+- `reporte_metricas.txt` - Resumen de métricas
+
+## 🎯 Casos de Uso
+
+1. **Planificación urbana**: Análisis de centralidad de estaciones
+2. **Optimización de rutas**: Búsqueda A* con garantía de optimalidad
+3. **Estudios comparativos**: Benchmarking con ciudades similares
+4. **Reportes ejecutivos**: Excel profesional con múltiples análisis
+5. **Presentaciones**: Gráficos de alta calidad para informes
+
+## 🔧 Configuración Avanzada
+
+### Agregar Nuevas Estaciones
+
+Editar `src/base_conocimiento.py`:
+
+```python
+self.estaciones['Nueva_Estacion'] = {'lat': 2.9500, 'lon': -75.2800}
+self.conexiones.append(('Estacion_A', 'Nueva_Estacion', 1.5, 5))
 ```
 
-Este script verifica:
-- Rutas cortas directas
-- Rutas con múltiples paradas
-- Optimización de caminos alternativos
-- Conectividad completa de la red
-- Bidireccionalidad de las rutas
+### Personalizar Visualizaciones
 
-Ver archivo `commands.md` para casos de prueba detallados.
+Editar `src/visualizador.py` para ajustar:
+- Colores y estilos
+- Tamaño de nodos
+- Grosor de aristas
+- Resolución de salida
 
-## 👥 Autor
+## 🤝 Contribuciones
 
-Sistema desarrollado para el curso de Inteligencia Artificial.
+Este es un proyecto académico. Para mejoras:
+1. Fork del repositorio
+2. Crear rama feature
+3. Commit de cambios
+4. Push y Pull Request
 
 ## 📄 Licencia
 
-Este proyecto es de uso académico.
+Proyecto académico - Universidad
+
+## 👥 Autor
+
+Desarrollado para el curso de Inteligencia Artificial - 2026
+
+## 🆘 Soporte
+
+Para problemas o preguntas:
+1. Revisar `docs/` para documentación completa
+2. Ejecutar con `--help` para opciones
+3. Verificar logs en `outputs/logs/`
+
+---
+
+**Versión**: 2.0  
+**Fecha**: Septiembre 2026  
+**Python**: 3.6+  
+**Estado**: ✅ Producción

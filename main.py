@@ -4,7 +4,10 @@ PUNTO DE ENTRADA PRINCIPAL
 Sistema Inteligente de Búsqueda de Rutas - SETP Neiva
 """
 
-from interfaz_usuario import InterfazUsuario
+import sys
+sys.path.insert(0, 'src')
+
+from src.interfaz_usuario import InterfazUsuario
 
 
 def main():
