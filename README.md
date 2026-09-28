@@ -9,6 +9,14 @@ Sistema avanzado de búsqueda de rutas óptimas con análisis profesional, visua
 - Base de conocimiento con 12 estaciones y 16 conexiones reales
 - Búsqueda óptima garantizada con métricas de rendimiento
 
+### 🗺️ **Mapas Interactivos**
+- **Visualización sobre mapas reales de Neiva** con OpenStreetMap
+- **Coordenadas GPS reales** de todas las estaciones
+- **Mapas HTML interactivos** con zoom, tooltips y navegación
+- **Controles profesionales**: minimapa, pantalla completa, medidor de distancias
+- Colores diferenciados:R origen verde, destino rojo, paradas naranja
+- Ver ruta óptima sobre el contexto geográfico real de la ciudad
+
 ### 📊 Análisis Profesional
 - **Reportes Excel** completos con 7 hojas de análisis
 - **Gráficos de alta calidad** (300 DPI) tipo red de tráfico
@@ -33,24 +41,47 @@ Sistema avanzado de búsqueda de rutas óptimas con análisis profesional, visua
 ### Instalación
 
 ```bash
-# Clonar o descargar el repositorio
+# 1. Clonar o descargar el repositorio
 git clone <url-repositorio>
 
-# Instalar dependencias
+# 2. Entrar al directorio
+cd "Actividad 3 Transporte Masivo"
+
+# 3. Instalar dependencias (incluye folium para mapas)
 pip install -r requirements.txt
 ```
 
 ### Uso Básico
 
-#### 1. Interfaz Interactiva
+#### 1️⃣ Interfaz Interactiva con Mapas 🗺️ (Recomendado)
 
 ```bash
 python main.py
 ```
 
-Permite buscar rutas entre estaciones de forma interactiva.
+**Flujo de uso:**
+1. Opción de ver el mapa de la red completa al inicio
+2. Selecciona estación de **origen** (ej: Terminal)
+3. Selecciona estación de **destino** (ej: Estadio)
+4. El sistema **calcula la ruta óptima** con algoritmo A*
+5. Muestra el resultado en consola (ruta, distancia, tiempo)
+6. **Pregunta si deseas ver el mapa interactivo en el navegador**
+7. El mapa se genera y abre automáticamente con la ruta sobre el mapa real de Neiva
 
-#### 2. Análisis Completo
+**Resultado:** Archivo HTML interactivo en `outputs/` que puedes compartir
+
+#### 2️⃣ Generar Mapas Automáticamente
+
+```bash
+python generar_mapas.py
+```
+
+**Genera automáticamente:**
+- 1 mapa de la red completa del SETP
+- 4 mapas de rutas de ejemplo predefinidas
+- Todos como archivos HTML interactivos en `outputs/`
+
+#### 3. Análisis Completo
 
 ```bash
 python generar_analisis_completo.py
@@ -78,6 +109,7 @@ Ejecuta suite de 8 pruebas automatizadas.
 │   ├── base_conocimiento.py      # Base de datos de red
 │   ├── algoritmo_a_estrella.py   # Motor A*
 │   ├── interfaz_usuario.py       # CLI interactiva
+│   ├── mapa_interactivo.py       # 🗺️ NUEVO: Mapas con Folium
 │   ├── visualizador.py           # Gráficos NetworkX
 │   ├── analizador_excel.py       # Reportes Excel
 │   ├── logger_metricas.py        # Sistema de logging
@@ -86,15 +118,19 @@ Ejecuta suite de 8 pruebas automatizadas.
 ├── outputs/                       # Archivos generados
 │   ├── *.png                     # Gráficos
 │   ├── *.xlsx                    # Reportes Excel
+│   ├── *.html                    # 🗺️ NUEVO: Mapas interactivos
 │   └── logs/                     # Logs y métricas
 ├── data/                          # Datos auxiliares
 ├── docs/                          # Documentación completa
 │   ├── README.md                 # Guía detallada
 │   ├── ARQUITECTURA.md           # Diseño técnico
-│   └── commands.md               # Comandos Git
+│   ├── commands.md               # Comandos actualizados
+│   └── MAPAS_INTERACTIVOS.md     # 🗺️ NUEVO: Guía de mapas
 ├── main.py                        # Entrada principal
 ├── generar_analisis_completo.py  # Análisis completo
-└── requirements.txt               # Dependencias Python
+├── generar_mapas.py               # 🗺️ NUEVO: Generador de mapas
+├── NUEVA_FUNCIONALIDAD.md         # 🗺️ NUEVO: Resumen de cambios
+└── requirements.txt               # Dependencias Python (incluye folium)
 ```
 
 ## 📊 Ejemplos de Salida

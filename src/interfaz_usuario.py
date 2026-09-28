@@ -6,6 +6,7 @@ Permite al usuario interactuar con el sistema de búsqueda de rutas
 
 from src.base_conocimiento import BaseConocimiento
 from src.algoritmo_a_estrella import AlgoritmoAEstrella
+from src.mapa_interactivo import MapaInteractivoSETP
 
 
 class InterfazUsuario:
@@ -14,6 +15,7 @@ class InterfazUsuario:
     def __init__(self):
         self.base = BaseConocimiento()
         self.motor_busqueda = AlgoritmoAEstrella(self.base)
+        self.mapa = MapaInteractivoSETP(self.base)
     
     def mostrar_banner(self):
         """Muestra el encabezado del sistema"""
@@ -76,6 +78,14 @@ class InterfazUsuario:
         """Bucle principal de la interfaz"""
         self.mostrar_banner()
         
+        # Preguntar si desea ver el mapa de la red completa
+        print("¿Desea ver el mapa de la red completa del SETP? (s/n): ", end="")
+        respuesta = input().strip().lower()
+        if respuesta in ['s', 'si', 'sí']:
+            print("\n🗺️  Generando mapa de la red completa...")
+            self.mapa.crear_mapa_red_completa(abrir=True)
+            print("\n")
+        
         while True:
             self.mostrar_estaciones()
             
@@ -97,7 +107,25 @@ class InterfazUsuario:
                 print(f"\n❌ Error: {resultado[1]}\n")
             else:
                 ruta, num_paradas, costo = resultado
+                tiempo_estimado = int(costo * 3.5)
+                
+                # Mostrar resultado en consola
                 self.mostrar_resultado(ruta, num_paradas, costo)
+                
+                # Preguntar si desea ver el mapa interactivo
+                print("¿Desea ver la ruta en un mapa interactivo? (s/n): ", end="")
+                respuesta = input().strip().lower()
+                if respuesta in ['s', 'si', 'sí']:
+                    print("\n🗺️  Generando mapa interactivo...")
+                    self.mapa.crear_mapa_ruta(
+                        origen, 
+                        destino, 
+                        ruta, 
+                        costo, 
+                        tiempo_estimado,
+                        abrir=True
+                    )
+                    print()
             
             # ¿Otra búsqueda?
             if not self._continuar():
