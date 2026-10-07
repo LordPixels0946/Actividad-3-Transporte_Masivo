@@ -26,3 +26,6 @@ folium>=0.14.0
 
 # Colores y paletas
 colorama>=0.4.6
+
+# Machine Learning (Actividades 3 y 4)
+scikit-learn>=1.2.0
